@@ -266,7 +266,7 @@ def get_psu_html(identity):
             <div class="content">
                 <div class="page-header">
                     <h1 class="page-title">My Class Schedule</h1>
-                    <div class="term-info">Term: <strong>Fall 2025</strong> (Aug 25 - Dec 12)</div>
+                    <div class="term-info">Term: <strong>Winter 2026</strong> (Jan 2 - Mar 27)</div>
                 </div>
 
                 <div class="student-card">
@@ -336,4 +336,5 @@ def render_image(html_content):
         screenshot_bytes = page.screenshot(type='png')
         browser.close()
         return screenshot_bytes
+
 
